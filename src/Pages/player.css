@@ -1,0 +1,19 @@
+.player-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.player{
+    width: 150px;
+}
+
+.player-list h1{
+    color: black;
+    font-size: 48px;
+}
